@@ -1,3 +1,4 @@
+import Image from "/logo.svg";
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-white drop-shadow-md">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3">
-          <img src="logo.svg" className="h-12" alt="AB Logo" />
+          <img src={Image} className="h-12" alt="AB Logo" />
         </a>
         <div className="flex md:order-2">
           <button
